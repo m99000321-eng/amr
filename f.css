@@ -1,0 +1,429 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.carousel-item p{
+padding-left: 350px;
+padding-right:350px;
+}
+.carousel-item button{
+     background-color: transparent;
+    border: 1px solid #ff6426;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+
+}
+
+.carousel-item button:hover{
+    background-color: #ff6426;
+}
+.about button{
+  
+        background-color: transparent;
+    border: 1px solid #ff6426;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.about{
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.a{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.a h2{
+    padding-bottom: 35px;
+}
+.a button{
+   
+
+  
+        background-color: transparent;
+    border: 1px solid #ff6426;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+
+}
+   .a button:hover{
+    background-color: #ff6426;
+}
+.b p{
+    padding-top: 30px;
+}
+.c p{
+    font-size: 18px;
+}
+.c{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.c img{
+    width:650px;
+}
+.v button{
+   
+
+  
+        background-color: transparent;
+    border: 1px solid #ff6426;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    
+
+
+}
+   .v button:hover{
+    background-color: #ff6426;
+}
+.v{
+    background-color:  rgba(0, 0, 0, 0.637);
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 50px;
+}
+    .service-card {
+      background: white;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease-in-out;
+      height: 100%;
+    }
+
+    .service-icon {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .text-blue { color: #00c4ff; }
+    .text-orange { color: #ff7f1d; }
+    .text-green { color: #00c58e; }
+    .text-red { color: #ff3e57; }
+    .text-purple { color: #7d3cff; }
+    .text-pink { color: #ff4fc3; }
+
+    h5 {
+      font-weight: bold;
+    }
+
+    .section-title {
+      font-weight: 800;
+      font-size: 32px;
+    }
+    .q
+    {
+        margin-top: 35px;
+    }
+    .k li {
+list-style: none;
+font-size: 18;
+text-align: center;
+padding-left: 50px;
+padding-right: 50px;
+
+    }
+    .k{
+      padding-left: 50px;
+padding-right: 50px;  
+        
+    }
+    .k ol{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+    }
+
+ .pricing-card {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      text-align: center;
+      padding: 30px 20px;
+      transition: 0.3s;
+      position: relative;
+    }
+
+    .pricing-card.highlight {
+      background-color: #f60;
+      color: white;
+    }
+
+    .pricing-card .price {
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .pricing-card ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+
+    .pricing-card ul li {
+      margin: 10px 0;
+    }
+
+    .pricing-card ul li.disabled {
+      color: #aaa;
+      text-decoration: line-through;
+    }
+
+    .ribbon {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: #f60;
+      color: white;
+      padding: 5px 10px;
+      font-size: 12px;
+      font-weight: bold;
+      border-bottom-left-radius: 5px;
+    }
+
+    .btn-orange {
+      background-color: #f60;
+      color: white;
+      border: none;
+    }
+
+    .btn-orange:hover {
+      background-color: #e55a00;
+    }
+    .faq-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: "Arial", sans-serif;
+}
+
+/* Title */
+.faq-section h2 {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #777;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.faq-section h1 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: #333;
+  position: relative;
+}
+
+.faq-section h1::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #ff6600;
+  margin-top: 8px;
+}
+
+/* Accordion Items */
+.faq-item {
+  background: #f6f6f6;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.faq-question {
+  padding: 15px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faq-question:hover {
+  background: #ececec;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  background: #fff;
+  color: #444;
+  padding: 0 20px;
+  font-size: 15px;
+  line-height: 1.6;
+  transition: all 0.3s ease;
+}
+
+/* Show Answer when active */
+.faq-item.active .faq-answer {
+  max-height: 300px;
+  padding: 15px 20px;
+}
+
+/* Icon for Expand/Collapse */
+.faq-question::after {
+  content: "\25BC"; /* down arrow */
+  font-size: 14px;
+  transition: transform 0.3s ease;
+}
+
+.faq-item.active .faq-question::after {
+  transform: rotate(180deg);
+}
+.team-section {
+      padding: 60px 0;
+      background: #f9f9f9;
+    }
+    .team-title {
+      text-align: left;
+      margin-bottom: 40px;
+    }
+    .team-card {
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .team-card:hover {
+      transform: translateY(-10px);
+    }
+    .team-card img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      object-fit: cover;
+      width: 100%;
+      height: 280px;
+    }
+    .team-info {
+      padding: 20px;
+      text-align: left;
+    }
+    .team-info h5 {
+      font-weight: 600;
+    }
+    .team-info p {
+      color: #6c757d;
+      margin: 0;
+    }
+     body {
+      background: #fff;
+      font-family: Arial, sans-serif;
+    }
+    .section-title {
+      font-size: 28px;
+      font-weight: 700;
+      color: #2c2c2c;
+    }
+    .section-subtitle {
+      color: #777;
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+    .section-subtitle::after {
+      content: "";
+      display: inline-block;
+      width: 40px;
+      height: 2px;
+      background: #f26a21;
+      margin-left: 10px;
+      vertical-align: middle;
+    }
+    .blog-card {
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
+    }
+    .blog-card:hover {
+      transform: translateY(-5px);
+    }
+    .blog-card img {
+      height: 220px;
+      object-fit: cover;
+    }
+    .blog-category {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 5px;
+    }
+    .blog-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: #2c2c2c;
+      margin-bottom: 10px;
+    }
+    .author {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .author img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .author-name {
+      font-size: 14px;
+      font-weight: 600;
+      margin: 0;
+    }
+    .author-date {
+      font-size: 12px;
+      color: #888;
+    }
+    form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+input, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+@media(max-width:886px)
+{
+.carousel-item p{
+padding-left: 90px;
+padding-right:90px;
+}
+}
